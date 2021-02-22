@@ -1,0 +1,16 @@
+#clone yolo
+git clone https://github.com/ultralytics/yolov5.git
+
+#install requirements
+cd yolov5
+pip3 install -r requirements.txt
+
+#install weights
+#change python to python3 in /content/yolov5/weights/download_weights.sh
+weights/download_weights.sh
+
+#train
+python3 /content/yolov5/train.py --batch 8 --epochs 2 --data /content/Diatom-Non-neuronal-Cognition/Dataset/30_bbg/related_files/diatom.yaml --cfg ./models/yolov5m.yaml  --weights /content/yolov5/yolov5m.pt --device 0
+
+#predict
+python3 detect.py --source /content/Diatom-Non-neuronal-Cognition/Dataset/30_bbg/imgs  --weights /content/yolov5/runs/train/exp/weights/best.pt --conf 0.4
