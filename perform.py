@@ -42,7 +42,7 @@ parser.add_argument("-c","--conf",
 args = parser.parse_args()
 if args.mode == "train":
     print(f"training yolo model <{args.type}> on {args.link} yaml file, of batch size {args.batch} and for {args.epochs} epochs on device {args.device}")
-    os.system('cd /content/yolov5/')
     os.system(f'python3 /content/yolov5/train.py --batch {args.batch} --epochs {args.epochs} --data {args.link} --cfg /content/yolov5/models/yolov5{args.type}.yaml  --weights /content/yolov5/yolov5{args.type}.pt --device {args.device}')
 else :
+    print(f"predicting on images in folder {args.source} using weights {args.weights} with confidance score {args.conf}")
     os.system(f'python3 detect.py --source {args.source} --weights {args.weights} --conf {args.conf}')
