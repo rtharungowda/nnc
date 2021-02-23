@@ -1,0 +1,4 @@
+train: /content/Diatom-Non-neuronal-Cognition/Dataset/30_bbg/related_files/train_yolo_2.txt
+val: /content/Diatom-Non-neuronal-Cognition/Dataset/30_bbg/related_files/val_yolo_2.txt
+nc: 1
+names: ['diatom']
