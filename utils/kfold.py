@@ -9,8 +9,6 @@ print(f"Total number of images {len(imgs_list)}")
 #kfold obj
 kf =KFold(n_splits=5, shuffle=True, random_state=42)
 
-gf = KFold()
-
 for k,(train_ind, test_ind) in enumerate(kf.split(imgs_list)):
     print(f"fold {k} number of training images {len(train_ind)} and number of validation images {len(test_ind)}")
 
