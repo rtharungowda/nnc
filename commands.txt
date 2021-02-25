@@ -14,3 +14,13 @@ python3 /content/yolov5/train.py --batch 8 --epochs 300 --data /content/Diatom-N
 
 #predict
 python3 detect.py --source /content/Diatom-Non-neuronal-Cognition/Dataset/30_bbg/imgs  --weights /content/yolov5/runs/train/exp/weights/best.pt --conf 0.4
+
+#uninstall tensorboard from python2 and python3
+pip uninstall tensorboard
+pip3 uninstall tensorboard
+
+#reinstall 
+pip3 install tensorboard
+
+#tensorboard
+tensorboard --logdir=runs/train
