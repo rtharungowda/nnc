@@ -1,0 +1,7 @@
+/content/Diatom-Non-neuronal-Cognition/Dataset/zoomed_out_30_bbg/imgs/frame681.jpg
+/content/Diatom-Non-neuronal-Cognition/Dataset/zoomed_out_30_bbg/imgs/frame694.jpg
+/content/Diatom-Non-neuronal-Cognition/Dataset/zoomed_out_30_bbg/imgs/frame1045.jpg
+/content/Diatom-Non-neuronal-Cognition/Dataset/zoomed_out_30_bbg/imgs/frame900.jpg
+/content/Diatom-Non-neuronal-Cognition/Dataset/zoomed_out_30_bbg/imgs/frame944.jpg
+/content/Diatom-Non-neuronal-Cognition/Dataset/zoomed_out_30_bbg/imgs/frame1390.jpg
+/content/Diatom-Non-neuronal-Cognition/Dataset/zoomed_out_30_bbg/imgs/frame1000.jpg

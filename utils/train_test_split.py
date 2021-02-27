@@ -38,7 +38,7 @@ def create_split(img_path,txt_path,ratio=0.2):
 
 
 if __name__ == "__main__":
-  img_path = "/content/Diatom-Non-neuronal-Cognition/Dataset/bbg/imgs/"
-  txt_path = "/content/Diatom-Non-neuronal-Cognition/Dataset/bbg/related_files/"
+  img_path = "/content/Diatom-Non-neuronal-Cognition/Dataset/zoomed_out_30_bbg/imgs/"
+  txt_path = "/content/Diatom-Non-neuronal-Cognition/Dataset/zoomed_out_30_bbg/related_files/"
   ratio = 0.2
   create_split(img_path,txt_path,ratio)
