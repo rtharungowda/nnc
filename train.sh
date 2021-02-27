@@ -21,4 +21,6 @@ python3 /content/yolov5/train.py --batch $BATCH_SIZE --epochs $NUM_EPOCHS --data
 #tensorboard
 cd /usr/local/lib/python3.7/dist-packages/tensorboard
 
-python3 main.py --logdir /content/yolov5/runs/train
+LOG_DIR="/content/yolov5/runs/train"
+
+python3 main.py --logdir $LOG_DIR
