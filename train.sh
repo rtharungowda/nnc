@@ -1,8 +1,10 @@
 #!/bin/sh
 
+cd /content/yolov5
+
 #start training
 BATCH_SIZE="16"
-NUM_EPOCHS="1"
+NUM_EPOCHS="1000"
 TRAIN_YAML="/content/Diatom-Non-neuronal-Cognition/Dataset/bbg/related_files/diatom.yaml"
 CLF="/content/yolov5/models/yolov5l.yaml"
 WEIGHTS="/content/yolov5/yolov5l.pt"
