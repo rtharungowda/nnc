@@ -4,11 +4,11 @@ cd /content/yolov5
 
 #start training
 BATCH_SIZE="8"
-NUM_EPOCHS="1"
+NUM_EPOCHS="500"
 TRAIN_YAML="/content/Diatom-Non-neuronal-Cognition/Dataset/zoomed_out_30_bbg/related_files/diatom.yaml"
-CLF="/content/yolov5/models/yolov5s.yaml"
-WEIGHTS="/content/yolov5/yolov5s.pt"
-DEVICE="cpu"
+CLF="/content/yolov5/models/yolov5l.yaml"
+WEIGHTS="/content/yolov5/yolov5l.pt"
+DEVICE="0"
 echo "Batch size : $BATCH_SIZE"
 echo "Number of epochs : $NUM_EPOCHS"
 echo "Link to train yaml : $TRAIN_YAML"
