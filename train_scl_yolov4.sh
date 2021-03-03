@@ -5,10 +5,10 @@ cd /content/ScaledYOLOv4/
 #start training
 IMG_SIZE="640"
 BATCH_SIZE="8"
-NUM_EPOCHS="600"
+NUM_EPOCHS="300"
 TRAIN_YAML="/content/Diatom-Non-neuronal-Cognition/Dataset/30_bbg/related_files/diatom.yaml"
-CLF="/content/ScaledYOLOv4/models/yolov4-csp.yaml"
-WEIGHTS="/content/ScaledYOLOv4/weights/yolov4-csp.weights"
+CLF="/content/ScaledYOLOv4/models/yolov4-p5.yaml"
+WEIGHTS="/content/ScaledYOLOv4/weights/yolov4-p5.pt"
 DEVICE="0"
 echo "Batch size : $BATCH_SIZE"
 echo "Number of epochs : $NUM_EPOCHS"
@@ -22,6 +22,6 @@ python3 /content/ScaledYOLOv4/train.py --img $IMG_SIZE --batch $BATCH_SIZE --epo
 #tensorboard
 cd /usr/local/lib/python3.7/dist-packages/tensorboard
 
-LOG_DIR="/content/ScaledYOLOv4/runs/train"
+LOG_DIR="/content/ScaledYOLOv4/runs/exp0"
 
 python3 main.py --logdir $LOG_DIR

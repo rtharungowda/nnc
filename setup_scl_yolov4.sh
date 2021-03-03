@@ -35,3 +35,4 @@ EOF
 cd /content/ScaledYOLOv4/weights/
 
 gdown https://drive.google.com/u/0/uc?id=1NQwz47cW0NUgy7L3_xOKaNEfLoQuq3EL
+gdown https://drive.google.com/u/0/uc?id=1aXZZE999sHMP1gev60XhNChtHPRMH3Fz
