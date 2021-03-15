@@ -7,7 +7,7 @@ Setup:
 
 Training:
 + Make changes in **train_yolov5.sh** for training on dataset using yolov5.
-  + To start training Run ``` sh train_yolov5.sh ```. OR
+  + To start training run ``` sh train_yolov5.sh ```. OR
 + Make changes in **train_scl_yolov4.sh** for training on dataset using yolov4.
   + To start training run ``` sh train_scl_yolov4.sh ```.
  
