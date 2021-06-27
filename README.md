@@ -1,5 +1,5 @@
 # Diatom-Non-neuronal-Cognition
-https://github.com/devoworm/Proposals-Public-Lectures/blob/master/GSoC/2021/DL-for-Diatom-Non-neuronal-Cog.md
+The aim of this project will be to improve upon a Deep Learning model that extracts morphological features from microscopy images of Bacillaria Paradoxa. 
 
 ## Notebooks:
 <table>
